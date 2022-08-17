@@ -9,6 +9,9 @@
     font-size: 2rem;
     height:52rem;
     transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     backface-visibility: hidden;
     border-radius:3px;
@@ -72,7 +75,7 @@
   }
 
   &__heading-span{
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 
